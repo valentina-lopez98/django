@@ -1,4 +1,5 @@
 # core/views.py
+<<<<<<< HEAD
 """Vistas principales del proyecto ERP — W02.
 
 Migración: HttpResponse → render() con templates y contexto.
@@ -55,3 +56,16 @@ def bienvenida(request):
         },
     ]
     return render(request, 'bienvenida.html', {'modulos': modulos})
+=======
+"""Vistas de la configuración central del ERP — W01."""
+from django.shortcuts import render
+
+
+def bienvenida(request):
+    """Página de inicio del ERP.
+
+    Returns:
+        HttpResponse con la plantilla de bienvenida.
+    """
+    return render(request, 'bienvenida.html')
+>>>>>>> 14b01055ae40f386e1d9803624f6a074c99e2c30

@@ -38,6 +38,7 @@ y repositorio en GitHub con al menos 10 commits.
 - URL pública en Render → HTTP 200 (W03)
 - Repositorio con rama main + historial de commits
 - Ficha Schmelkes E1 completa (W03)
+<<<<<<< HEAD
 
 ## Sprint Backlog — W02 (actualización de estados)
 
@@ -64,3 +65,5 @@ y repositorio en GitHub con al menos 10 commits.
 | Actualizar requirements.txt (gunicorn, psycopg2) | ✅ |
 | Crear tests/test_w02_mvt.py — 12 tests OK | ✅ |
 | HU-E1-03 Repositorio GitHub: avance W02 commiteado | ✅ |
+=======
+>>>>>>> 14b01055ae40f386e1d9803624f6a074c99e2c30

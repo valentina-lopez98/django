@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # proveedores/views.py
 """Vistas de la app proveedores — W02 (placeholder)."""
 from django.shortcuts import render
@@ -11,3 +12,8 @@ def index(request):
         'espiral': 'Espiral 2 · W04',
     }
     return render(request, 'proveedores/index.html', context)
+=======
+from django.shortcuts import render
+
+# Create your views here.
+>>>>>>> 14b01055ae40f386e1d9803624f6a074c99e2c30

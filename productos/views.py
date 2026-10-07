@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # productos/views.py
 """Vistas de la app productos — W02 (placeholder).
 
@@ -18,3 +19,8 @@ def index(request):
         'espiral': 'Espiral 2 · W05',
     }
     return render(request, 'productos/index.html', context)
+=======
+from django.shortcuts import render
+
+# Create your views here.
+>>>>>>> 14b01055ae40f386e1d9803624f6a074c99e2c30

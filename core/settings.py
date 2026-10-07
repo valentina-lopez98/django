@@ -78,12 +78,17 @@ USE_TZ        = True
 # ── Archivos estáticos ────────────────────────────────────────────────────
 STATIC_URL  = '/static/'
 STATIC_ROOT = BASE_DIR / 'staticfiles'
+<<<<<<< HEAD
 
+=======
+STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'
+>>>>>>> 14b01055ae40f386e1d9803624f6a074c99e2c30
 
 # ── Archivos media ────────────────────────────────────────────────────────
 MEDIA_URL  = '/media/'
 MEDIA_ROOT = BASE_DIR / 'media'
 
+<<<<<<< HEAD
 # settings.py — sección de estáticos (verificar, no duplicar)
 STATIC_URL  = '/static/'
 STATIC_ROOT = BASE_DIR / 'staticfiles'   # destino de collectstatic
@@ -94,6 +99,8 @@ STATICFILES_DIRS = [BASE_DIR / 'static']  # fuentes adicionales
 STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'
 
 
+=======
+>>>>>>> 14b01055ae40f386e1d9803624f6a074c99e2c30
 # ── Autenticación ─────────────────────────────────────────────────────────
 LOGIN_URL           = '/accounts/login/'
 LOGIN_REDIRECT_URL  = '/productos/'
